@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#img{   
+    width: 55%;
+    height:90%;
+    position: absolute;
+    
+}
+.des{
+    position: absolute;
+    top: 12%;
+    left:52%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+    height: 575px;
+    width: 650px;
+    overflow-y: auto;
+}
+.logo{
+    position: absolute;
+    top: 3%;
+    left: 6%;
+}
+text{
+    margin-left: 2%;
+}
+.l11{
+    position: absolute;
+    left: 10%;
+}
+.l2{
+    position: absolute;
+    left: 30%;
+}
+.l3{
+    position: absolute;
+    left: 40%;
+}
+.l4{
+    position: absolute;
+    left: 50%;
+}
+.l5{
+    position: absolute;
+    left: 60%;
+}
+.single ,.double,.triple{
+    border: 1px solid black;
+    width: 170px;
+    padding: 15px;
+    border-radius: 20px;
+   }
+.single:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.double:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.triple:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.double{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+
+}
+.triple{
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.avo1{
+    margin: auto;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+ fieldset{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 500px;
+    padding: 10px;   
+}
+legend{
+    border: 2px solid rgb(10, 65, 10);
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    height: 40px;
+    width: 150px;
+    margin-left: 374px;
+    background-color: rgb(10, 65, 10);
+    color: white;
+}
+nav{
+   height: 80px; 
+   width: 100px;
+   
+}
+  nav ul{
+    float: right;
+  }
+  nav ul li{
+    display: inline-block;
+    
+  }
+  nav ul li a{
+  font-size: 15px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+  top: 4%;
+}
+a.active,a:hover{
+    background: #767777;
+    transition: .5s;
+  }  
+  
+.landing{
+    color: black;
+    background-color: rgb(247, 245, 245);
+}
+.cont1 {
+    display: flex;
+}
+.checkbtn{
+    font-size: 20px;
+    float: right;
+    line-height: 80px;
+    margin-right: 100px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+  }
+  @media (min-width: 300px){
+    .fa-burger{
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    }
+    .des{
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+    }
+    #img{
+        height: 100%;
+        width: 100%;
+    }
+    .logo{
+        position: absolute;
+        top: 3%;
+        left: 80px;
+    }
+    .fa-bars{
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    }
+  }
+  @media (min-width: 500px){
+    label.logo{
+      
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    .des{
+        position: absolute;
+        top: 12%;
+        left:52%;
+        background-color: white;
+        padding: 30px;
+        border-radius: 25px;
+        height: 575px;
+        width: 650px;
+        overflow-y: auto;
+    }
+    #img{   
+        width: 55%;
+        height:90%;
+    }
+    .fa-burger{
+        position: absolute;
+        top: 30px;
+        left: 10px;
+    }
+  }
+  @media (max-width: 800px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;  
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+      }
+      nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+      }
+      nav ul li a{
+        font-size: 20px;
+      }
+          
+      a:hover,a.active{
+        background: none;
+        color: #1c1d1d;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      }
+      
+    }
+    section{
+      background: url(bg1.jpg) no-repeat;
+      background-size: cover;
+      height: calc(100vh - 80px);
+    }
+  
+
+a{
+    color: black;
+}
+.bun , .wrap{
+    border: 1px solid black;
+    width: 170px;
+    height: 95px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.con2{
+    display: flex;
+}
+.wrap{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+}
+.bun:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.wrap:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.con3{
+    display: flex;
+}
+.cheese, .lathuce{
+    border: 1px solid black;
+    width: 170px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.lathuce{
+    margin-left:30px;
+}
+.cheese:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.lathuce:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.con4{
+    display: flex;
+}
+.tse, .shack{
+    border: 1px solid black;
+    margin-top: 30px;
+    width: 170px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.shack{
+    margin-left:30px;
+}
+.tse:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.shack:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.pickles, .onions{
+    border: 1px solid black;
+    width: 170px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.con5{
+    display: flex;
+}
+.onions{
+    margin-left: 30px;
+}
+.pickles:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.onions:hover{
+    border: 2px solid green;
+    border-radius: 20px;
+}
+.done{
+    border:1px solid black;
+    width: 170px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 20px;
+}
+body{
+    background-color: gainsboro;
+}
+
+.last{
+border-top: 1px solid gainsboro;
+border-bottom: 1px solid gainsboro;
+display: flex;
+border-radius: 20px;
+}
+.last .btn{
+    margin-top: 80px;
+    border: 2px solid rgb(22, 107, 22);
+    height: 50px;   
+    width: 190px;
+    padding: 13px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(22, 107, 22);
+    margin-left: 200px;
+}
+.fa-burger{
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+.fa-bars{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.fa-user{
+    position: absolute;
+    top: 30px;
+    margin-left: 75%;
+}
+.fa-bag-shopping{
+    position: absolute;
+    top: 30px;
+    margin-left: 70%;
+}
+
